@@ -84,6 +84,7 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	justify-content: center;
 }
 
 
@@ -95,6 +96,12 @@ p {
 	.masonry {
 		column-count: 2;
 		width: auto;
+	}
+	.footer {
+		width: 100%;
+	}
+	.page {
+		width: 100%;
 	}
 
 }
